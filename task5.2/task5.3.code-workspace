@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../task5.3"
+		},
+		{
+			"path": "../les5"
+		},
+		{
+			"path": "../../lesson4/task4.3"
+		},
+		{
+			"path": "../../lesson3/les3"
+		},
+		{
+			"path": "../task5.1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "task5.2"
+	}
+}

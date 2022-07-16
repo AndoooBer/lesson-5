@@ -1,0 +1,112 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: rgba(124, 218, 239, 1);
+    /* width: 100px; */
+    padding-top: 104px;
+ }
+
+ .container{
+    max-width: 900px;
+    /* padding-top: 104px; */
+    /* background-color: rgba(14, 73, 126, 0.7); */
+    margin: auto;
+    position: relative;
+ }
+
+ .blue{
+    background-color: rgba(14, 73, 126, 0.7);
+    z-index: 2;
+    position: absolute;
+    padding-bottom: 176px;
+ }
+
+ h1{
+    color: white;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    padding-left: 78px;
+    padding-top: 99px;
+    padding-bottom: 24px;
+ }
+
+ p{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    padding-bottom: 26px;
+    padding-left: 78px;
+    padding-right: 79px;
+ }
+
+ h2{
+    color: white;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    padding-left: 78px;
+ }
+
+ .bird
+{
+    width: 118px;
+    height: 121px;
+    inline-size: auto;
+    margin-top: 51px;
+    padding-left: 78px;
+    padding-right: 10px;
+    padding-bottom: 44px;
+}
+
+.cloud1{
+    background-image: url(/images/cloud1.png);
+    width: 362.55px;
+    height: 157.79px;
+    z-index: 1;
+    left: -205px;
+    top: 179px;
+    position: absolute;
+}
+
+.cloud2{
+    background-image: url(/images/cloud2.png);
+    width: 339.66px;
+    height: 141.32px;
+    z-index: 3;
+    right: -155px;
+    top: -59px;
+    position: absolute;
+}
+
+.cloud3{
+    background-image: url(/images/cloud3.png);
+    width: 468px;
+    height: 216.74px;
+    right: -285px;
+    top: 450px;
+    z-index: 1;
+    position: absolute;
+}
+
+.grass{
+    background-image: url(/images/grass.png);
+    height: 132px;
+    position: fixed;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
